@@ -214,6 +214,6 @@ local.properties
 # LibreOffice locks
 .~lock.*#
 
-!/.hugo_build.lock
-!/public/
-!/resources/
+.hugo_build.lock
+/public/
+/resources/_gen/
