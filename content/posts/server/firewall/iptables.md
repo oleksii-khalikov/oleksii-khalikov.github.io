@@ -1,7 +1,7 @@
 ---
-title = 'Iptables'
-date = 2024-05-26T12:09:00+02:00
-draft = false
+title: 'Iptables'
+date: 2024-05-26T12:09:00+02:00
+draft: false
 tags:
   - ubuntu
   - iptables
