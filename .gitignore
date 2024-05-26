@@ -215,5 +215,5 @@ local.properties
 .~lock.*#
 
 .hugo_build.lock
-/public/
-/resources/_gen/
+/public
+/resources
