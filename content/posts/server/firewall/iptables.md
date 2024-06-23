@@ -142,7 +142,7 @@ netfilter-persistent start
 ### Заблокувати якийсь IP
 
 ```Bash
-iptables -I INPUT -s 209.175.153.23 -j ACCEPT
+iptables -I INPUT -s 209.175.153.23 -j DROP
 ```
 
 ## Додаткові матеріали
