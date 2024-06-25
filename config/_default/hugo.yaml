@@ -1,11 +1,8 @@
 baseURL: 'https://oleksii-khalikov.github.io/'
 languageCode: 'uk'
-title: 'My New Hugo Site'
+title: 'Oleksii Khalikov @GFalcon-UA'
 
 theme: "hello-gfalcon"
-#theme = 'ananke'
-
-
 
 copyright: "All Rights Reserved"
 IsMultiLingual: false

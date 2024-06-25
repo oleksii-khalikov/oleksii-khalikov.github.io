@@ -8,15 +8,13 @@ tags:
   - firewall
 ---
 
-# iptables
-
 Всі команди виконуються під **sudo**
 
 ```Bash
 sudo su
 ```
 
-### Перевірка стану
+## Перевірка стану
 
 ```Bash
 iptables -L -nv
@@ -70,7 +68,7 @@ admin@vmi1582341:/home/admin$ ip a
 
 Нам треба запам'ятати назву мережі **eth0**, бо вона може бути різною.
 
-### Додавання правил
+## Додавання правил
 
 В першу чергу дозволяємо собі підключення по **ssh**
 
@@ -110,7 +108,7 @@ iptables -A INPUT -p tcp --dport=443 -j ACCEPT
 iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 ```
 
-#### Закриваємо прийом всіх інших пакетів
+### Закриваємо прийом всіх інших пакетів
 
 ```Bash
 iptables -P INPUT DROP
@@ -118,7 +116,7 @@ iptables -P INPUT DROP
 
 Якщо після цієї команди страчено доступ - треба перезавантажити сервер, бо правила ще не збережені.
 
-### Збереження правил
+## Збереження правил
 
 ```Bash
 iptables-save > ./iptables-2024-05-26.rules
@@ -130,22 +128,23 @@ iptables-save > ./iptables-2024-05-26.rules
 iptables-restore < ./iptables-2024-05-26.rules
 ```
 
-```Bash
-apt install iptables-persistent netfilter-persistent
-```
+>  Якщо не було раніше встановлено, то виконати команду
+> ```Bash
+> apt install iptables-persistent netfilter-persistent
+> ```
 
 ```Bash
 netfilter-persistent save
 netfilter-persistent start
 ```
 
-### Заблокувати якийсь IP
+## Заблокувати якийсь IP
 
 ```Bash
 iptables -I INPUT -s 209.175.153.23 -j DROP
 ```
 
-## Додаткові матеріали
+# Додаткові матеріали
 
 [Налаштування з нуля](https://youtu.be/Q0EC8kJlB64?si=hdHF3yohljY4zY1i)
 

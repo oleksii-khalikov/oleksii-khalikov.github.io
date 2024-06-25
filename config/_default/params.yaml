@@ -5,7 +5,7 @@ EnableThemeToggle: true
 # gitUrl: "https://github.com/4s3ti"
 EnableSharingButtons: true
 EnableGlobalLanguageMenu: false
-backgroundImage: "assets/4s3tibg.gif"
+backgroundImage: "/static/images/coolapso.webp"
 backgroundEffects: true
 showPosts: true
 tags: true
@@ -32,14 +32,14 @@ logo:
   logoCursorColor: "#ffffff"
 social:
   - name: "github"
-    url: "https://github.com/4s3ti"
-  - name: "CV"
-    url: "https://cv.4s3ti.net"
-    icon: fa-solid fa-terminal
-  - name: "youtube"
-    url: "https://youtube.com/cfcolaco"
+    url: "https://github.com/oleksii-khalikov"
+#  - name: "CV"
+#    url: "https://cv.4s3ti.net"
+#    icon: fa-solid fa-terminal
+#  - name: "youtube"
+#    url: "https://youtube.com/cfcolaco"
   - name: "twitter"
-    url: "https://twitter.com/4s3ti/"
+    url: "https://twitter.com/GFalconUA/"
   - name: "instagram"
     url: "https://www.instagram.com/c4colaco/"
   - name: "twitch"
@@ -51,11 +51,11 @@ footer:
   showVersion: true
   socialIcons: true
   author: true
-  rss: true
+  rss: false
   trademark: true
   copyright: true
   #   topText:  ["Footer Top text"]
   bottomText: [
     "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-    "with <a href=\"#\">Hello-friend-4s3ti</a>",
+#    "with <a href=\"#\">Hello-friend-4s3ti</a>",
   ]

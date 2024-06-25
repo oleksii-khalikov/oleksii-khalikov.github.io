@@ -5,20 +5,16 @@ draft: false
 tags:
 - Suno AI
 ---
+# Style of Music
 
-# Suno AI
-
-## Style of Music
-
-### Full format
+## Full format
 
 ```text
 [Genre: rock, electro] [Style: hype, deep, syncopated] [Tempo: 95 BPM] [Vocal style: clean female vocals]
 ```
 
-## Tags
+# Структура
 
-### Структура
 * `[Instrumental Interlude]` - на початок пісні вставити музичний програш
 * `[Intro]` - якщо у пісні є голосовий текстовий вступ
 * `[Verse]` або `[Verse 1]` - куплет 1
@@ -35,27 +31,27 @@ tags:
 * `[Outro]` - текст перед самым концом
 * `[end]` - кінець, щоб Suno не почав співати повторно
 
-`(ooooh)` - подпевка
+`(ooooh)` - підспівка
 
-## Tags
+# Tags
 
-### 1. `[Intro]`
+## 1. `[Intro]`
 
 Часто використовується створення початкової атмосфери пісні. Інтро може бути інструментальним або містити вокальні елементи, задаючи тон усьому треку.
 
 Також можна описати докладніше, наприклад `[Short Instrumental Intro]`
 
-### 2. `[Verse]`
+## 2. `[Verse]`
 
 Позначає куплет пісні. Куплетів може бути кілька і вони можуть бути пронумеровані (`[Verse 1]`, `[Verse 2]`...). Також може містити додатковий опис, наприклад`[Sad Verse]`, `[Rapped Verse]`.
 
-### 3. `[Chorus]`
+## 3. `[Chorus]`
 
 Приспів або динамічна частина пісні, що повторюється.
 
 Тег приспіву також може містити в собі підказку щодо його настрою. Наприклад `[Happy Chorus]` говорить про те, що приспів має бути веселим, а `[Sad Chorus]` додасть сумних мінорних фарб.
 
-### 4. `[Pre-Chorus]`
+## 4. `[Pre-Chorus]`
 
 Фраза перед приспівом, невеликий приспів.
 
@@ -63,31 +59,31 @@ tags:
 
 До нього можна додати опис `[Shout Pre-Chorus]`, `[Whimsical Pre-Chorus]`, `[Melancholy Pre-Chorus]`
 
-### 5. `[Hook]`
+## 5. `[Hook]`
 
 Хук являє собою фразу, що повторюється, або мелодію яка легко запам'ятовується і привертає увагу. Він може повторюватися кілька разів протягом пісні. Також може бути використане з доповненнями, наприклад `[Catchy Hook]`.
 
-### 6. `[Solo]`
+## 6. `[Solo]`
 
 Позначає музичне соло.
 
 Найчастіше використовується з підказками про те, на якому інструменті виконується соло `[Guitar solo]`, `[Piano solo]`, `[Drum solo]`, `[Bass solo]` і т.д.
 
-### 7. `[Break]`
+## 7. `[Break]`
 
 Декілька тактів без провідних інструментів або вокалу, що створюють паузу або зміну в пісні. Це може бути перкусійний брейк `[Percussion Break]` або просто тиша.
 
-### 8. `[Interlude]`
+## 8. `[Interlude]`
 
 Інструментальна частина, яка додається до створення переходу між різними частинами пісні. Це може бути мелодійна чи ритмічна секція.
 
 Також може містити в собі різні підказки та доповнення `[Melodic Interlude]`, `[Acoustic Interlude]`, `[Instrumental Interlude]`
 
-### 9. `[Bridge]`
+## 9. `[Bridge]`
 
 Як правило, вокальна частина пісні, яка об'єднує кілька моментів, найчастіше може бути між двома приспівами в кінці пісні.
 
-### 10. `[Instrumental]` `[Instrumental Build]`
+## 10. `[Instrumental]` `[Instrumental Build]`
 
 Музична вставка без слів.
 
@@ -127,23 +123,23 @@ waah-Waaah-WAAH
 chuka-chuka-chuka-chuka
 ```
 
-### 11. `[Male Vocal]`, `[Female Vocal]`, `[Duet]`, `[Choir]`
+## 11. `[Male Vocal]`, `[Female Vocal]`, `[Duet]`, `[Choir]`
 
 У деяких випадках ці вокальні теги можуть спрацювати та дати додатковий голос, спів дуетом чи хор.
 
-### 12. `[Outro]`
+## 12. `[Outro]`
 
 Аутро допомагає завершити пісню. Це може бути повторення основної теми із загасанням звуку або інший музичний елемент, що підкреслює кінець треку. Найчастіше, якщо нічого не вказано як завершальний тег, Suno робить завершення пісні через Аутро.
 
 Також може містити підказки (`[Powerful Outro]`) і має ще два варіанти позначення `[Refrain]` та `[Big Finish]`.
 
-### 13. `[End]`
+## 13. `[End]`
 
 Кінець пісні може бути окремим кліпом чи фейд-атом, який плавно завершує композицію.
 
 Має також загасаючі варіанти кінцівок: `[Fade Out]` і `[Fade to End]`
 
-## Голоса
+# Голоса
 
 * `[Male Vocal]` -чоловічий вокал
 * `[Female Vocal]` - жіночий вокал
@@ -155,9 +151,9 @@ chuka-chuka-chuka-chuka
 * `[Breathy Male/Female Voice]` - чоловічий/жіночий голос із диханням
 * `[Powerful Male/Female Voice]` - потужний чоловічий/жіночий голос
 
-## Жанри
+# Жанри
 
-### Folk and Ethnic Music
+## Folk and Ethnic Music
 
 * Traditional Folk
 * Celtic Music
@@ -165,7 +161,7 @@ chuka-chuka-chuka-chuka
 * Reggae
 * Ska
 
-### Jazz and Blues
+## Jazz and Blues
 
 * Traditional Jazz
 * Swing
@@ -173,7 +169,7 @@ chuka-chuka-chuka-chuka
 * Blues
 * Soul Jazz
 
-### Electronic Music
+## Electronic Music
 
 * Techno
 * Trance
@@ -182,7 +178,7 @@ chuka-chuka-chuka-chuka
 * Downtempo
 * Dubstep
 
-### Metal
+## Metal
 
 * Heavy Metal
 * Death Metal
@@ -194,7 +190,7 @@ chuka-chuka-chuka-chuka
 * Nu Metal
 * Progressive Metal
 
-### Pop
+## Pop
 
 * Classic Pop
 * Synth-pop
@@ -202,7 +198,7 @@ chuka-chuka-chuka-chuka
 * Dance Pop
 * Electropop
 
-### Rap and Hip-hop
+## Rap and Hip-hop
 
 * Old School Rap
 * Gangsta Rap
@@ -210,7 +206,7 @@ chuka-chuka-chuka-chuka
 * Lo-fi Hip-hop
 * Alternative Hip-hop
 
-### Rock
+## Rock
 
 * Classic Rock
 * Hard Rock
@@ -223,9 +219,9 @@ chuka-chuka-chuka-chuka
 * Psychedelic Rock
 * Garage Rock
 
-## Жанры и стили
+# Жанры и стили
 
-### Country
+## Country
 
 * Appalachian
 * Bluegrass
@@ -234,7 +230,7 @@ chuka-chuka-chuka-chuka
 * Freak Folk
 * Western
 
-### Dance
+## Dance
 
 * Afro-Cuban
 * Dance Pop
@@ -247,7 +243,7 @@ chuka-chuka-chuka-chuka
 * House
 * Trance
 
-### Downtempo
+## Downtempo
 
 * Ambient
 * Synthwave
@@ -256,7 +252,7 @@ chuka-chuka-chuka-chuka
 * Cyberpunk
 * Drum'n'bass
 
-### Electronic
+## Electronic
 
 * Hypnogogic
 * IDM
@@ -265,7 +261,7 @@ chuka-chuka-chuka-chuka
 * Techno
 * Trap
 
-### Jazz/Soul
+## Jazz/Soul
 
 * Bebop
 * Gospel
@@ -276,7 +272,7 @@ chuka-chuka-chuka-chuka
 * RnB
 * Soul
 
-### Latin
+## Latin
 
 * Bossa Nova
 * Latin Jazz
@@ -285,7 +281,7 @@ chuka-chuka-chuka-chuka
 * Salsa
 * Tango
 
-### Reggae
+## Reggae
 
 * Afrobeat
 * Dancehall
@@ -293,7 +289,7 @@ chuka-chuka-chuka-chuka
 * Reggae
 * Reggaeton
 
-### Metal
+## Metal
 
 * Black Metal
 * Deathcore
@@ -304,7 +300,7 @@ chuka-chuka-chuka-chuka
 * Nu Metal
 * Power Metal
 
-### Popular
+## Popular
 
 * Pop
 * Dance Pop
@@ -313,7 +309,7 @@ chuka-chuka-chuka-chuka
 * RnB
 * Synthpop
 
-### Rock
+## Rock
 
 * Classic Rock
 * Blues Rock
@@ -328,7 +324,7 @@ chuka-chuka-chuka-chuka
 * Skatecore
 * Suomipop
 
-### Urban
+## Urban
 
 * Funk
 * Electro
@@ -338,9 +334,9 @@ chuka-chuka-chuka-chuka
 * Rap
 * Trap
 
-## Стиль
+# Стиль
 
-### Danceable
+## Danceable
 
 * Dance
 * Festive
@@ -349,7 +345,7 @@ chuka-chuka-chuka-chuka
 * Syncopated
 * Tipsy
 
-### Dark
+## Dark
 
 * Atmospheric
 * Cold
@@ -358,7 +354,7 @@ chuka-chuka-chuka-chuka
 * Dramatic
 * Sinister
 
-### Eclectic
+## Eclectic
 
 * Adjunct *Art
 * Capriccio
@@ -369,14 +365,14 @@ chuka-chuka-chuka-chuka
 * Emotion
 * Anthemic
 
-### Emotional
+## Emotional
 
 * Happy
 * Jubilant
 * Melancholy
 * Sad
 
-### Hard
+## Hard
 
 * Aggression
 * Anger
@@ -384,7 +380,7 @@ chuka-chuka-chuka-chuka
 * Stadium
 * Stomp
 
-### Lyrical
+## Lyrical
 
 * Broadway
 * Cabaret
@@ -396,13 +392,13 @@ chuka-chuka-chuka-chuka
 * Troubadour
 * Vegas
 
-### Magical
+## Magical
 
 * Ethereal
 * Majestic
 * Mysterious
 
-### Minimal
+## Minimal
 
 * Ambient
 * Cinematic
@@ -410,14 +406,14 @@ chuka-chuka-chuka-chuka
 * Slow
 * Sparse
 
-### Party
+## Party
 
 * German Schlager
 * Glam
 * Glitter
 * Groovy
 
-### Soft
+## Soft
 
 * Ambient
 * Bedroom
@@ -427,7 +423,7 @@ chuka-chuka-chuka-chuka
 * Heat
 * Sadcore
 
-### Weird
+## Weird
 
 * Carnival
 * Distorted
@@ -437,7 +433,7 @@ chuka-chuka-chuka-chuka
 * Musicbox
 * Random
 
-### World/Ethnic
+## World/Ethnic
 
 * Arabian
 * Bangra
@@ -455,22 +451,22 @@ chuka-chuka-chuka-chuka
 * Suomipop
 * Tribal
 
-## Додаткові типи, що не належать до жанру чи стилю
+# Додаткові типи, що не належать до жанру чи стилю
 
-### Background (фонова музика)
+## Background (фонова музика)
 
 * Elevator
 * Jingle
 * Muzak
 
-### Call to Prayer (молитовні формати)
+## Call to Prayer (молитовні формати)
 
 * Adan
 * Adjan
 * Call to Prayer
 * Gregorian Chant
 
-### Character
+## Character
 
 * I Want Song
 * Hero Theme
@@ -479,14 +475,14 @@ chuka-chuka-chuka-chuka
 * Military
 * Villain Theme
 
-### Children
+## Children
 
 * Lullaby
 * Nursery Rhyme
 * Sing-alone
 * Toddler
 
-### Composer
+## Composer
 
 * Adagio
 * Adjunct
@@ -494,7 +490,7 @@ chuka-chuka-chuka-chuka
 * Allegro
 * Capriccio
 
-### Instruments
+## Instruments
 
 * Acoustic Guitar
 * Bass
@@ -504,7 +500,7 @@ chuka-chuka-chuka-chuka
 * Fingerstyle Guitar
 * Percussion
 
-### Noise (шум)
+## Noise (шум)
 
 * Chaotic
 * Distorted
@@ -513,7 +509,7 @@ chuka-chuka-chuka-chuka
 * Random
 * Stuttering
 
-### Orchestral
+## Orchestral
 
 * glissando trombone
 * legato cello
@@ -522,7 +518,7 @@ chuka-chuka-chuka-chuka
 * staccato viola
 * Symphonic
 
-### Retro
+## Retro
 
 * 1960s
 * Barbershop
@@ -535,21 +531,21 @@ chuka-chuka-chuka-chuka
 * Swing
 * Traditional
 
-### Suffix
+## Suffix
 
 * ...core
 * ...jam
 * ...out
 * ...wave
 
-### Traditional
+## Traditional
 
 * Americana
 * Barbershop
 * Christmas Carol
 * Traditional
 
-### Voice (голосові)
+## Voice (голосові)
 
 * A Cappella
 * Arabic Ornamental
@@ -570,7 +566,7 @@ chuka-chuka-chuka-chuka
 * Torchy
 * Vocaloid
 
-## Приклади
+# Приклади
 
 * AC/DC: Hard Rock, Stomp
 * Adele: Soul, Emotional, Torch-Lounge, female vocals
