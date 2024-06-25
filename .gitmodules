@@ -1,4 +1,3 @@
-
 [submodule "themes/hello-gfalcon"]
 	path = themes/hello-gfalcon
 	url = https://github.com/oleksii-khalikov/hugo-theme-hello-gfalcon.git
