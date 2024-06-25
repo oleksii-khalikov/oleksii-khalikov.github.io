@@ -1,6 +1,10 @@
-[submodule "themes/hello-4s3ti"]
-	path = themes/hello-4s3ti
-	url = https://github.com/4s3ti/hugo-theme-hello-4s3ti.git
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/hello-4s3ti-fork"]
+	path = themes/hello-4s3ti-fork
+	url = https://github.com/oleksii-khalikov/hugo-theme-hello-gfalcon.git
+	branch = master-coolapso
+[submodule "themes/hello-gfalcon"]
+	path = themes/hello-gfalcon
+	url = https://github.com/oleksii-khalikov/hugo-theme-hello-gfalcon.git

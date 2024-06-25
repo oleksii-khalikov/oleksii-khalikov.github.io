@@ -1,6 +1,0 @@
-baseURL = 'https://oleksii-khalikov.github.io/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-
-#theme = "hello-4s3ti"
-theme = 'ananke'
